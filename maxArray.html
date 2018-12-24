@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+var x = [1,2,3,4,5,11,6,7,8,9,10 ];
+var inner = 0;
+var max = x[0];
+for(var i = 0;i<x.length;i++){
+    if(x[i]>max){
+        max = x[i];
+        inner =i;
+    }
+}
+
+alert("max "  + max + " ở vị trí " +inner);
+</script>
+</body>
+</html>
